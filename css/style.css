@@ -1,0 +1,54 @@
+.branding{
+	fontsize:17px;
+}
+.showcase{
+	padding:100px 15px;
+	color:darkblue;
+}
+
+.showcase img, .heading{
+	padding-top:30px;
+}
+
+.showcase h1{
+	fontsize: 30px;
+}
+
+.showcase p{
+	fontsize: 16px;
+	padding-bottom: 20px;
+}
+
+.showcase hr{
+	width:100px;
+	border-width: 3px;
+	margin:auto;
+	border-color: darkblue;
+}
+
+.home{
+	padding:40px 0px;
+	h2{
+		margin:0;
+		padding:0;
+	}
+	p{
+		padding:0px;
+	}
+	img{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:600){
+	body{
+		margin-top:190px;
+	}
+	.showcase{
+		//margin-top:105px;
+		padding:90px 10px;
+	}
+	.showcase img{
+	padding-top:100px;
+}
+}
